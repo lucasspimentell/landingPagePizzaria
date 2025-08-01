@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b1d1d;
+    color: aliceblue;
+    font: 1em sans-serif;
+}
+
+header {
+    background-image: url("img/banner-rodizio-pizza.jpg");
+    background-color: rgba(0, 0, 0, 0.704);
+    background-blend-mode: color;
+    max-width: 100%;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-bottom: 1px solid orange;
+    font-size: 1rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+.opçoes-list {
+    width: 100%;
+    display: flex;
+   
+
+
+}
+
+.opçao {
+    margin: 10px;
+    width: 50%;
+    padding: 3% 10%;
+    font-size: 1.5rem;
+   text-align: center;
+    
+    
+
+}
+
+#opçao1:hover, #opçao2:hover,#opçao3:hover {
+    padding: 3% 10%;
+    background-color: rgba(240, 248, 255, 0.052);
+}
+
+#opçao2 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#pizzaria {
+
+    position: relative;
+    background-image: url("img/mercado\ de\ delivery.png");
+    background-color: rgba(0, 0, 0, 0.573);
+    background-blend-mode: color;
+    width: 100%;
+    height: 28rem;
+
+    background-attachment: fixed;
+    background-size: cover;
+    border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
+
+}
+
+
+
+#pizzaria h2 {
+    text-align: center;
+    width: 15%;
+    position: absolute;
+    margin: 2%;
+    font-size: 2.9rem;
+    filter: drop-shadow(3px 3px rgb(139, 91, 3));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#cardapio {
+    
+    margin:auto;
+    width: 90%;
+    max-width: 1000px;
+    min-width: 200px;
+    padding: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(7, 7, 7, 0.493), #1b1d1d, #121313);
+    gap: 20px;
+   
+
+}
+
+.card {
+     overflow: hidden;
+    text-align: center;
+    width: 30%;
+    height: 18rem;
+    border: 1px solid orange;
+    border-radius: 15px;
+   background-color: #1b1d1d;
+   
+    flex-basis: 310px;
+}
+
+.card img {
+   border-bottom:1px solid orange ;
+    background-size: contain;
+    width: 100%;
+    height: 60%;
+}
+.cardBtn{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(212, 151, 7);
+    width: 150px;
+    height: 35px;
+}
+
+#sobre{
+    margin: auto;
+    text-align: center;
+    
+    width: 50%;
+}
+
+#sobre img{
+    filter: brightness(0) invert(1); /*inverter cores*/
+}
+
+footer{
+    border-top:1px solid orange ;
+    height: 10rem;
+}
+@media screen and (max-width: 770px) {
+
+  
+    .opçao {
+        box-sizing: content-box;
+        margin: 10px;
+        padding: 5% 2%;
+        font-size: 1.2rem;
+
+    }
+
+    #pizzaria {
+        height: 25rem;
+        background-position: center;
+
+    }
+
+    .opçoes-list {
+        margin-left: 0;
+    }
+
+   
+
+}
