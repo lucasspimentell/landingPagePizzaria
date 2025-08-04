@@ -142,18 +142,27 @@ footer{
 }
 @media screen and (max-width: 770px) {
 
-  
+    body{
+        width: 100vw;
+    }
+
+    header, header p, .opçao{
+        font-size: 0.9rem;
+    }
     .opçao {
         box-sizing: content-box;
         margin: 10px;
-        padding: 5% 2%;
-        font-size: 1.2rem;
+        padding: 5% 0%;
+        
 
     }
 
     #pizzaria {
-        height: 25rem;
-        background-position: center;
+       
+       
+       background-position: center;
+        background-size: contain cover;
+        
 
     }
 
@@ -161,6 +170,15 @@ footer{
         margin-left: 0;
     }
 
-   
+    #sobre{
+        width: 90%;
+    }
+
+    #sobre img{
+        width: 150px;
+    }
+   #cardapio{
+    width: 60%;
+   }
 
 }
